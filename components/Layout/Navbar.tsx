@@ -18,7 +18,7 @@ function Navbar() {
         scrolled ? " bg-white text-black" : " text-white bg-transparent"
       }`}
     >
-      <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+      <div className="lg:px-[100px] w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div className="pl-4 flex items-center">
           <a
             className={
@@ -30,7 +30,7 @@ function Navbar() {
           >
             <div className="flex">
               <img className=" w-[45px] h-[40px] mr-3" src="logo.png" />
-              ELECTRA-Z
+              Electra-Z
             </div>
           </a>
         </div>
@@ -64,7 +64,7 @@ function Navbar() {
                 className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                 href="#"
               >
-                Axis
+                Our Axis
               </Link>
             </li>
             <li className="mr-3">
@@ -77,7 +77,7 @@ function Navbar() {
                 className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                 href="#"
               >
-                solutions
+                Solutions
               </Link>
             </li>
             <li className="mr-3">
@@ -90,7 +90,7 @@ function Navbar() {
                 className="inline-block py-2 px-4 text-black no-underline"
                 href="#"
               >
-                projects
+                Projects
               </Link>
             </li>
           </ul>

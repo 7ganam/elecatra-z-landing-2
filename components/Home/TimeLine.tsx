@@ -16,8 +16,8 @@ const TimeLine = () => {
         <div className="container m-auto  max-w-[1200px]">
           <div className="flex flex-col md:flex-row">
             <div className="h-[300px] grow flex justify-start relative flex-col items-center ">
-              <div className="hidden md:block absolute h-3 bg-yellow-400 w-1/2 top-[40px] right-0 z-0"></div>
-              <div className="h-[100px] w-[100px] gradient rounded-3xl z-10 flex justify-center items-center text-5xl font-bold">
+              <div className="dotted hidden md:block absolute h-3  mr-2 w-1/2 top-[47px] right-0 z-0"></div>
+              <div className="inner_text_shadow h-[100px] w-[100px] gradient rounded-3xl z-10 flex justify-center items-center text-5xl font-bold">
                 1
               </div>
               <div className="text-2xl text-black mt-2 ">Problem solving</div>
@@ -26,9 +26,9 @@ const TimeLine = () => {
               </div>
             </div>
             <div className="h-[300px] grow flex justify-start relative flex-col items-center ">
-              <div className="hidden md:block absolute h-3 bg-yellow-400 w-1/2 top-[40px] right-0 z-0"></div>
-              <div className="hidden md:block absolute h-3 bg-yellow-400 w-1/2 top-[40px] left-0 z-0"></div>
-              <div className="h-[100px] w-[100px] gradient rounded-3xl z-10 flex justify-center items-center text-5xl font-bold">
+              <div className="dotted hidden md:block absolute h-3 mr-2 w-1/2 top-[47px] right-0 z-0"></div>
+              <div className="dotted hidden md:block absolute h-3  w-1/2 top-[47px] left-0 z-0"></div>
+              <div className="inner_text_shadow h-[100px] w-[100px] gradient rounded-3xl z-10 flex justify-center items-center text-5xl font-bold">
                 2
               </div>
               <div className="text-2xl text-black mt-2 ">Install</div>
@@ -38,9 +38,9 @@ const TimeLine = () => {
               </div>
             </div>
             <div className="h-[300px] grow flex justify-start relative flex-col items-center ">
-              <div className="hidden md:block absolute h-3 bg-yellow-400 w-1/2 top-[40px] right-0 z-0"></div>
-              <div className="hidden md:block absolute h-3 bg-yellow-400 w-1/2 top-[40px] left-0 z-0"></div>
-              <div className="h-[100px] w-[100px] gradient rounded-3xl z-10 flex justify-center items-center text-5xl font-bold">
+              <div className="dotted hidden md:block absolute h-3 mr-2 w-1/2 top-[47px] right-0 z-0"></div>
+              <div className="dotted hidden md:block absolute h-3  w-1/2 top-[47px] left-0 z-0"></div>
+              <div className="inner_text_shadow h-[100px] w-[100px] gradient rounded-3xl z-10 flex justify-center items-center text-5xl font-bold">
                 3
               </div>
               <div className="text-2xl text-black mt-2 ">Dashboard</div>
@@ -49,8 +49,8 @@ const TimeLine = () => {
               </div>
             </div>
             <div className="h-[300px] grow flex justify-start relative flex-col items-center ">
-              <div className="hidden md:block absolute h-3 bg-yellow-400 w-1/2 top-[40px] left-0 z-0"></div>
-              <div className="h-[100px] w-[100px] gradient rounded-3xl z-10 flex justify-center items-center text-5xl font-bold">
+              <div className="dotted hidden md:block absolute h-3 w-1/2 top-[47px] left-0 z-0"></div>
+              <div className="inner_text_shadow h-[100px] w-[100px] gradient rounded-3xl z-10 flex justify-center items-center text-5xl font-bold">
                 4
               </div>
               <div className="text-2xl text-black mt-2 ">Save</div>

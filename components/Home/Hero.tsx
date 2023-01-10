@@ -5,16 +5,16 @@ const Hero: React.FC = () => {
     <>
       {/* <!--Hero--> */}
       <div className="pt-24">
-        <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <div className="lg:px-[100px] container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           {/* <!--Left Col--> */}
           <div className="flex flex-col w-full md:w-3/6 justify-center items-start text-center md:text-left">
             <p className="uppercase tracking-loose w-full">
               what is electra-z?
             </p>
-            <h1 className="my-4 text-5xl font-bold leading-tight">
+            <h1 className="my-4 text-4xl font-bold leading-tight">
               Monitoring and Control!
             </h1>
-            <p className="leading-normal text-2xl mb-8">
+            <p className="leading-normal text-xl mb-8">
               The market is having an increasing demand for innovative solutions
               monitoring the data and controlling variables based on the network
               connection that gathers data and further analyzes it. Electra-z

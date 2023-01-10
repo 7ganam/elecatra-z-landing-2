@@ -18,3 +18,16 @@
   color: white;
   padding: 20px;
 }
+
+.inner_text_shadow {
+  text-shadow: 1px 1px white, -2px 1px #444;
+}
+
+.dotted {
+  border: none;
+  border-top: 10px dotted #f9cc16;
+  color: #fff;
+  /* background-color: #fff; */
+  height: 1px;
+  width: 50%;
+}

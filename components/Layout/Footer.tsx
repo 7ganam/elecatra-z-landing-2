@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-white">
+    <footer className="bg-white mt-[100px]">
       <div className="container mx-auto px-8">
         <div className="w-full flex flex-col md:flex-row py-6">
           <div className="flex-1 mb-6 text-black">
@@ -12,7 +12,7 @@ function Footer() {
             >
               <div className="flex">
                 <img className=" w-[45px] h-[40px] mr-3" src="logo.png" />
-                ELECTRA-Z
+                Electra-Z
               </div>
             </a>
           </div>
