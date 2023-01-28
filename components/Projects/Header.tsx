@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
     <>
       <div className="min-h-[400px] overflow-hidden ">
         <div className={styles.bgImg}></div>
-        <div className="w-full text-white text-7xl text-center h-[500px] flex items-center justify-center absolute top-0 ">
+        <div className="w-full text-white text-5xl md:text-7xl text-center h-[500px] flex items-center justify-center absolute top-0 p-5">
           Compressed natural gas Automation System
         </div>
       </div>

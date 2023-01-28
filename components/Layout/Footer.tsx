@@ -11,7 +11,11 @@ function Footer() {
               href="#"
             >
               <div className="flex">
-                <img className=" w-[45px] h-[40px] mr-3" src="logo.png" />
+                <img
+                  className=" w-[45px] h-[40px] mr-3"
+                  alt="logo"
+                  src="/logo.png"
+                />
                 Electra-Z
               </div>
             </a>
