@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Projects: React.FC = () => {
   return (
@@ -36,9 +37,11 @@ const Projects: React.FC = () => {
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
               <div className="flex items-center justify-start">
-                <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Learn More
-                </button>
+                <Link href="/projects/project1">
+                  <button className="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                    Learn More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -30,8 +30,8 @@ const Axis = () => {
                 Electrical hardware
               </h3>
               <p className="text-gray-600 mb-4 text-xl">
-                We manufacture the electronics associated with collecting the
-                data and executing the control actions.
+                We manufacture our own electronic boards associated with
+                collecting the data and executing the control actions.
               </p>
               <div>
                 <ul>
@@ -39,19 +39,25 @@ const Axis = () => {
                     <div className="h-5 w-5 gradient rounded-full mt-[2px] mr-3 mb-3 flex justify-center items-center">
                       <FaPlus />
                     </div>
-                    <div className="text-gray-600 font-bold ">Point 1</div>
+                    <div className="text-gray-600 font-bold ">
+                      Our boards are locally designed and manufactured
+                    </div>
                   </li>
                   <li className="flex ml-5">
                     <div className="h-5 w-5 gradient rounded-full mt-[2px] mr-3 mb-3 flex justify-center items-center">
                       <FaPlus />
                     </div>
-                    <div className="text-gray-600 font-bold ">Point 2</div>
+                    <div className="text-gray-600 font-bold ">
+                      Our boards are customized{" "}
+                    </div>
                   </li>
                   <li className="flex ml-5">
                     <div className="h-5 w-5 gradient rounded-full mt-[2px] mr-3 mb-3 flex justify-center items-center">
                       <FaPlus />
                     </div>
-                    <div className="text-gray-600 font-bold ">Point 3</div>
+                    <div className="text-gray-600 font-bold ">
+                      Our boards are extendable
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -86,8 +92,8 @@ const Axis = () => {
                 IOT
               </h3>
               <p className="text-gray-600 mb-4 text-xl">
-                Transferring live data wired or wireless from data sources to
-                where your system admins are.
+                We transferring live data its sources to anywhere the system
+                admins are located.
               </p>
               <div>
                 <ul>
@@ -95,19 +101,27 @@ const Axis = () => {
                     <div className="h-5 w-5 gradient rounded-full mt-[2px] mr-3 mb-3 flex justify-center items-center">
                       <FaPlus />
                     </div>
-                    <div className="text-gray-600 font-bold ">Point 1</div>
+                    <div className="text-gray-600 font-bold ">
+                      Our IOT system can be wired to transfer data in a certain
+                      area
+                    </div>
                   </li>
                   <li className="flex ml-5">
                     <div className="h-5 w-5 gradient rounded-full mt-[2px] mr-3 mb-3 flex justify-center items-center">
                       <FaPlus />
                     </div>
-                    <div className="text-gray-600 font-bold ">Point 2</div>
+                    <div className="text-gray-600 font-bold ">
+                      Our IOT system can be wireless to transfer the data
+                      anywhere
+                    </div>
                   </li>
                   <li className="flex ml-5">
                     <div className="h-5 w-5 gradient rounded-full mt-[2px] mr-3 mb-3 flex justify-center items-center">
                       <FaPlus />
                     </div>
-                    <div className="text-gray-600 font-bold ">Point 3</div>
+                    <div className="text-gray-600 font-bold ">
+                      Our IOT system is extendable and configurable
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -129,7 +143,7 @@ const Axis = () => {
                 Web/mobile apps
               </h3>
               <p className="text-gray-600 mb-4 text-xl">
-                handy interfaces for your system monitoring and control.
+                We display the data of our devices in a friendly user interface.
               </p>
               <div>
                 <ul>
@@ -137,19 +151,27 @@ const Axis = () => {
                     <div className="h-5 w-5 gradient rounded-full mt-[2px] mr-3 mb-3 flex justify-center items-center">
                       <FaPlus />
                     </div>
-                    <div className="text-gray-600 font-bold ">Point 1</div>
+                    <div className="text-gray-600 font-bold ">
+                      Our Software can be a local executable file installed in
+                      the PC.
+                    </div>
                   </li>
                   <li className="flex ml-5">
                     <div className="h-5 w-5 gradient rounded-full mt-[2px] mr-3 mb-3 flex justify-center items-center">
                       <FaPlus />
                     </div>
-                    <div className="text-gray-600 font-bold ">Point 2</div>
+                    <div className="text-gray-600 font-bold ">
+                      Our Software can be a web-based solution to be able to
+                      check from anywhere
+                    </div>
                   </li>
                   <li className="flex ml-5">
                     <div className="h-5 w-5 gradient rounded-full mt-[2px] mr-3 mb-3 flex justify-center items-center">
                       <FaPlus />
                     </div>
-                    <div className="text-gray-600 font-bold ">Point 3</div>
+                    <div className="text-gray-600 font-bold ">
+                      Our Software is configurable, extendable and customizable.
+                    </div>
                   </li>
                 </ul>
               </div>

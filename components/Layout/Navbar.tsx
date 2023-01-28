@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import NextLink from "next/link";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -62,9 +63,9 @@ function Navbar() {
                 offset={-70}
                 duration={500}
                 className="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                href="#"
+                href="/"
               >
-                Our Axis
+                <NextLink href="/"> Our Axis</NextLink>
               </Link>
             </li>
             <li className="mr-3">

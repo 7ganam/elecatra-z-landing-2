@@ -16,10 +16,12 @@ const Hero: React.FC = () => {
             </h1>
             <p className="leading-normal text-xl mb-8">
               The market is having an increasing demand for innovative solutions
-              monitoring the data and controlling variables based on the network
-              connection that gathers data and further analyzes it. Electra-z
-              innovates in manufacturing hardware electrical boards and software
-              dashboards that meets the needs of the market.
+              for collecting and monitoring the data of any device, and further
+              controlling the different variables of that device to have a fast
+              and adaptive response to the changes. Electra-z innovates in
+              manufacturing hardware electrical boards and software dashboards
+              that meets the needs of the market to make any system online and
+              controllable.
             </p>
             {/* <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
               Subscribe

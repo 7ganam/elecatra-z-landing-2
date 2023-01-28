@@ -16,15 +16,15 @@ function Footer() {
               </div>
             </a>
           </div>
-          {/* <div className="flex-1">
-            <p className="uppercase text-gray-500 md:mb-6">Links</p>
+          <div className="flex-1">
+            <p className="uppercase text-gray-500 md:mb-6">Contacts</p>
             <ul className="list-reset mb-6">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
                   href="#"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
-                  FAQ
+                  B. No.301, Dream house street, 1st district, 6th October, Giza
                 </a>
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -32,20 +32,12 @@ function Footer() {
                   href="#"
                   className="no-underline hover:underline text-gray-800 hover:text-pink-500"
                 >
-                  Help
-                </a>
-              </li>
-              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  className="no-underline hover:underline text-gray-800 hover:text-pink-500"
-                >
-                  Support
+                  +201017839210
                 </a>
               </li>
             </ul>
           </div>
-          <div className="flex-1">
+          {/* <div className="flex-1">
             <p className="uppercase text-gray-500 md:mb-6">Legal</p>
             <ul className="list-reset mb-6">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
