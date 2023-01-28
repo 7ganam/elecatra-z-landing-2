@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlus } from "react-icons/fa";
 import { FaFileDownload } from "react-icons/fa";
-import VideoContentYT from "react-video-content-youtube";
+const VideoContentYT = require("react-video-content-youtube");
 
 const Body: React.FC = () => {
   return (
